@@ -21,7 +21,7 @@ namespace Echo.VIID.Models
         /// 状态码
         /// 必填
         /// </summary>
-        [Required,JsonConverter(typeof(JsonStringEnumConverter))]
+        [Required]
         public ConfirmStatu StatusCode { get; set; }
 
         /// <summary>
